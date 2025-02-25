@@ -28,7 +28,7 @@ class Rectangle(Shape):
     
     @property
     def perimeter(self):
-        return 2 * (self.width + self.height)
+        return 2 * (self.width + self.length)
     
     @property
     def area(self):
