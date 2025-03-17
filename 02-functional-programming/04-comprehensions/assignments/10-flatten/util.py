@@ -11,3 +11,6 @@ class Card:
 
     def __hash__(self):
         return hash((self.value, self.suit))
+    
+    def __repr__(self):
+        return f"Card({self.value}, '{self.suit}')"

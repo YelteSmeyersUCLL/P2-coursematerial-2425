@@ -8,6 +8,7 @@ class Movie:
         self.genres = genres
 
 
+
 movies = [
     Movie(
         title="Magnolia",

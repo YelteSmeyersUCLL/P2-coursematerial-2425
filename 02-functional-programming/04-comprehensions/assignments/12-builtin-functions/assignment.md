@@ -4,7 +4,7 @@ Write the following functions and rely on comprehensions and the functions above
 
 * `movie_count(movies, director)` returns the number of movies made by `director`.
 * `longest_movie_runtime_with_actor(movies, actor)` returns the runtime duration of the longest movie in which `actor` appears.
-* `has_director_made_genre(movies, director, genre)` returns `True` is `director` made a movie of the given `genre`.
+* `has_director_made_genre(movies, director, genre)` returns `True` if `director` made a movie of the given `genre`.
 * `is_prime(n)` checks whether `n` is a prime number, i.e., that it is only divisible by 1 and itself.
 * `is_increasing(ns)` checks whether the values in `ns` appear in nondecreasing order.
   For example, `is_increasing([1, 1, 2, 3, 4, 6])` should return `True`, whereas `is_increasing([3, 2, 1])` should yield `False`.
