@@ -5,6 +5,6 @@ def find_string_with_consecutive_characters(strings):
                 return string
     return None
 
-def find()
+
 
 print(find_string_with_consecutive_characters(["monkey", "banana", "computer", "yellow", "oddish"]))
